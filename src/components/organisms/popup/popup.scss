@@ -15,7 +15,7 @@
    width: 260px;
    height: 290px;
    margin-left: 1rem;
-   margin-top: 11rem;
+   margin-top: 9.5rem;
    border-radius: $br-4;
    border: 0;
    background-image: $color-primary;
@@ -26,10 +26,10 @@
    &:before {
      content: "";
      width: 2px;
-     height: 4.35rem;
+     height: 44px;
      position: absolute;
-     top: -4.35rem;
-     left: 1rem;
+     top: -44px;
+     left: 1.5rem;
      background-image: $color-primary-3;
    }
 
