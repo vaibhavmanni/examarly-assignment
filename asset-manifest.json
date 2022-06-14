@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/examarly-assignment/static/css/main.f71df5df.css",
+    "main.css": "/examarly-assignment/static/css/main.fff41386.css",
     "main.js": "/examarly-assignment/static/js/main.945f7d58.js",
     "static/js/787.5a4d7bbe.chunk.js": "/examarly-assignment/static/js/787.5a4d7bbe.chunk.js",
     "index.html": "/examarly-assignment/index.html",
     "static/media/Icon ionic-ios-close.svg": "/examarly-assignment/static/media/Icon ionic-ios-close.e0f8e4425d8549cd589261b7fd861b91.svg",
-    "main.f71df5df.css.map": "/examarly-assignment/static/css/main.f71df5df.css.map",
+    "main.fff41386.css.map": "/examarly-assignment/static/css/main.fff41386.css.map",
     "main.945f7d58.js.map": "/examarly-assignment/static/js/main.945f7d58.js.map",
     "787.5a4d7bbe.chunk.js.map": "/examarly-assignment/static/js/787.5a4d7bbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f71df5df.css",
+    "static/css/main.fff41386.css",
     "static/js/main.945f7d58.js"
   ]
 }
