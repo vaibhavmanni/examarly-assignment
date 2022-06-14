@@ -1,0 +1,89 @@
+@import "../../../partials/variables";
+
+.examarly-popup-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(58,52,82,0.8);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+ .examarly-popup {
+   width: 260px;
+   height: 290px;
+   margin-left: 1rem;
+   margin-top: 11rem;
+   border-radius: $br-4;
+   border: 0;
+   background-image: $color-primary;
+   padding-top: 20px;
+   filter: drop-shadow(0 3px 41px #00000029);
+   position: relative;
+
+   &:before {
+     content: "";
+     width: 2px;
+     height: 4.35rem;
+     position: absolute;
+     top: -4.35rem;
+     left: 1rem;
+     background-image: $color-primary-3;
+   }
+
+   img {
+     position: absolute;
+     top: 1rem;
+     right: 1rem;
+     cursor: pointer;
+   }
+
+   h1 {
+    font-size: 1rem;
+    color: $color-white;
+    font-weight: 600;
+     padding-left: 22px;
+   }
+
+   span {
+     font-size: 0.875rem;
+     color: $color-white;
+     font-weight: 300;
+     padding-left: 22px;
+     display: block;
+     width: 85%;
+     line-height: 1.25rem;
+   }
+
+   &__banner {
+     width: 100%;
+     background-color: rgb(253,244,236);
+     padding: 0.5rem 0 0.5rem 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 19px;
+     &__item {
+       margin-bottom: 1rem;
+        h1 {
+          color: $color-black;
+          font-size: 12px;
+          padding-left: 0;
+          display: block;
+          //background-color: yellow;
+          margin-bottom: 1px;
+        }
+     }
+   }
+
+   button {
+     margin: 19px 0 19px auto;
+     position: absolute;
+     left: 95%;
+     transform: translateX(-100%);
+   }
+ }

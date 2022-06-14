@@ -1,0 +1,23 @@
+@import "../../../partials/variables";
+
+.examarly-tab {
+  width: 107px;
+  padding: 6px 0;
+  border-radius: $br-4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid #C6C6C6;
+  color: #C6C6C6;
+
+  &__active {
+    background-image: $color-primary-2;
+    color: $color-white;
+    border: 1px solid transparent;
+    z-index: 99;
+
+  }
+}

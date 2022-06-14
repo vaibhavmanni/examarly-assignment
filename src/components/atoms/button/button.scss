@@ -1,0 +1,11 @@
+@import "../../../partials/variables";
+
+.examarly-btn {
+  padding: 8.5px 22.5px;
+  border-radius: $br-3;
+  border: 0;
+  background-color: $color-white;
+  filter: drop-shadow(0 3px 13px #0000001A);
+  cursor: pointer;
+  font-size: 12px;
+}
